@@ -1,0 +1,43 @@
+BLUESTOCK FINTECH
+MUTUAL FUND ANALYTICS PLATFORM
+BUSINESS INSIGHTS REPORT
+
+1. PROJECT OVERVIEW
+This project analyzes mutual fund scheme performance, assets under management (AUM), systematic investment plan (SIP) trends, and investor transactions using SQL and MySQL.
+
+2. TOOLS USED
+- MySQL
+- MySQL Workbench
+- SQL
+- Python for data ingestion and validation
+
+3. KEY BUSINESS INSIGHTS
+
+A. Mutual Fund Scheme Performance
+In the project dataset, Small Cap schemes had the highest average 3-year return at approximately 21.69%, followed by Mid Cap schemes at 16.59%. Past returns do not guarantee future performance.
+
+B. Fund House AUM
+As of 31 December 2025 in the dataset, SBI Mutual Fund had AUM of ₹12.5 lakh crore, followed by ICICI Prudential Mutual Fund at ₹10.74 lakh crore and HDFC Mutual Fund at ₹9.3 lakh crore.
+
+C. SIP Growth
+Monthly SIP inflows increased from ₹11,438 crore in February 2022 to ₹31,002 crore in December 2025 in the dataset, an increase of approximately 171%.
+
+D. Investor Transactions
+SIP transactions were the most frequent transaction type, with 19,716 records. Lumpsum transactions had the highest total transaction value among the three transaction types analyzed.
+
+E. Investor Demographics
+The 26–35 age group had the highest transaction count, with 13,463 records. This represents transaction activity, not the number of unique investors.
+
+F. Geographic Analysis
+Punjab recorded the highest total transaction value among the states in the dataset. Rajasthan had the highest average transaction amount.
+
+G. Benchmark Comparison
+Several schemes recorded positive excess returns over their listed benchmarks over the dataset's 3-year period. Benchmark comparisons are historical and do not predict future returns.
+
+4. DATA QUALITY AND INTERPRETATION
+Data quality checks covered missing values, duplicate records, date and numeric validation, portfolio weights, and cross-table fund-code consistency. Unavailable SIP year-on-year growth values were retained as NULL rather than replaced with zero.
+
+5. CONCLUSION
+The analysis demonstrates how SQL can be used to explore mutual fund performance, AUM distribution, SIP trends, and transaction patterns. These findings can support reporting and further analysis, but they are not investment recommendations.
+
+Note: Findings are based on the project's dataset and its stated reporting period, not live market data.
